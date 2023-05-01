@@ -22,7 +22,7 @@ class App extends BaseConfig
      * explicitly and never rely on auto-guessing, especially in production
      * environments.
      */
-    public string $baseURL = 'http://localhost/ITEC_222_2A_Miguel_CI4';
+    public string $baseURL = 'http://localhost/CRUD-CodeIgniter-4';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
