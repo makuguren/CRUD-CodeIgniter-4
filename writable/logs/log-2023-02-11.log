@@ -1,0 +1,33 @@
+CRITICAL - 2023-02-11 06:39:20 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 06:39:20 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 06:39:20 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

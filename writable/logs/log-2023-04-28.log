@@ -1,0 +1,219 @@
+CRITICAL - 2023-04-28 13:37:52 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:37:55 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:39:39 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:39:41 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:42:38 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:43:29 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:44:38 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:44:40 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:45:45 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:45:56 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:46:52 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:47:04 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:47:28 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:48:13 --> Too few arguments to function App\Controllers\Product::index(), 0 passed in C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:48:30 --> Too few arguments to function App\Controllers\Product::index(), 0 passed in C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Product.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:49:12 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:49:17 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:52:36 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:55:06 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:55:17 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 13:56:25 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:03:34 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:03:35 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:03:36 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:19:10 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:19:45 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:20:33 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:20:36 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:23:01 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:23:31 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:23:36 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Product.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Product->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:30:12 --> Undefined variable $student
+in APPPATH\Views\products\index.php on line 39.
+ 1 APPPATH\Views\products\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'APPPATH\\Views\\products\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Product.php(21): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:31:35 --> Undefined variable $student
+in APPPATH\Views\products\index.php on line 39.
+ 1 APPPATH\Views\products\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'APPPATH\\Views\\products\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Product.php(21): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-28 14:32:37 --> Undefined variable $student
+in APPPATH\Views\products\index.php on line 43.
+ 1 APPPATH\Views\products\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'APPPATH\\Views\\products\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Product.php(21): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()

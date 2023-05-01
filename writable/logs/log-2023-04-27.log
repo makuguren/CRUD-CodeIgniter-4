@@ -1,0 +1,203 @@
+ERROR - 2023-04-27 07:34:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\itec222\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\itec222\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'codeigniter_ite...', 3306, '', 0)
+#1 C:\xampp\htdocs\itec222\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\itec222\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\itec222\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\itec222\app\Models\Student_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\itec222\app\Controllers\Student.php(14): App\Models\Student_model->getStudentInfo()
+#6 C:\xampp\htdocs\itec222\system\CodeIgniter.php(934): App\Controllers\Student->index()
+#7 C:\xampp\htdocs\itec222\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\xampp\htdocs\itec222\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\itec222\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\itec222\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\itec222\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\itec222\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\itec222\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\itec222\app\Models\Student_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\itec222\app\Controllers\Student.php(14): App\Models\Student_model->getStudentInfo()
+#5 C:\xampp\htdocs\itec222\system\CodeIgniter.php(934): App\Controllers\Student->index()
+#6 C:\xampp\htdocs\itec222\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\xampp\htdocs\itec222\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\itec222\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-27 07:34:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `student`', [], false)
+ 3 APPPATH\Models\Student_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Student.php(14): App\Models\Student_model->getStudentInfo()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:06:37 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:06:37 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:06:37 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:28:40 --> Undefined property: App\Controllers\Products::$StudentModel
+in APPPATH\Controllers\Products.php on line 9.
+ 1 APPPATH\Controllers\Products.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$StudentModel', 'APPPATH\\Controllers\\Products.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:29:03 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 30.
+ 1 APPPATH\Views\student\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Products.php(15): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:33:12 --> Undefined variable $student_info
+in APPPATH\Views\products\index.php on line 30.
+ 1 APPPATH\Views\products\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\products\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(15): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:37:38 --> Undefined variable $student_info
+in APPPATH\Views\products\index.php on line 30.
+ 1 APPPATH\Views\products\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\products\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(15): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:55:53 --> Undefined property: App\Controllers\Products::$StudentModel
+in APPPATH\Controllers\Products.php on line 9.
+ 1 APPPATH\Controllers\Products.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$StudentModel', 'APPPATH\\Controllers\\Products.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:56:14 --> Undefined property: App\Controllers\Products::$StudentModel
+in APPPATH\Controllers\Products.php on line 9.
+ 1 APPPATH\Controllers\Products.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$StudentModel', 'APPPATH\\Controllers\\Products.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:57:59 --> Class "App\Controllers\Student_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:59:05 --> Class "App\Controllers\Student_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 13:59:57 --> Class "App\Controllers\Student_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:02:04 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:02:52 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:04:11 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:05:46 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:07:13 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:07:53 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:07:59 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:10:05 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:12:01 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 14:12:46 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Products.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Products->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

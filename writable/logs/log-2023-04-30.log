@@ -1,0 +1,762 @@
+CRITICAL - 2023-04-30 00:19:27 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 00:19:27 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 00:19:27 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:09:15 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 42.
+ 1 APPPATH\Views\student\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:10:15 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 42.
+ 1 APPPATH\Views\student\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:10:20 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 42.
+ 1 APPPATH\Views\student\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:10:51 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 42.
+ 1 APPPATH\Views\student\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:11:01 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 42.
+ 1 APPPATH\Views\student\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:11:27 --> Undefined variable $student_info
+in APPPATH\Views\student\index.php on line 42.
+ 1 APPPATH\Views\student\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'lib', 'tempusdominus', 'css', 'tempusdominus-bootstrap-4.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'lib', 'owlcarousel', 'assets', 'owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'owlcarousel', 'owl.carousel.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'chart', 'chart.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'waypoints', 'waypoints.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'easing', 'easing.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'tempusdominus', 'js', 'moment.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'tempusdominus', 'js', 'moment-timezone.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'img', 'user.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:46 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'user.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:47 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'tempusdominus', 'js', 'tempusdominus-bootstrap-4.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:47 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:12:47 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:13:04 --> Undefined variable $student_info
+in APPPATH\Views\student\addRecord.php on line 42.
+ 1 APPPATH\Views\student\addRecord.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student_info', 'APPPATH\\Views\\student\\addRecord.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\addRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/addRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(85): view('student/addRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'lib', 'owlcarousel', 'assets', 'owl.carousel.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'lib', 'tempusdominus', 'css', 'tempusdominus-bootstrap-4.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'owlcarousel', 'owl.carousel.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'tempusdominus', 'js', 'moment-timezone.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'easing', 'easing.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'waypoints', 'waypoints.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'tempusdominus', 'js', 'moment.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'chart', 'chart.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'img', 'user.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:52 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('publc', 'assets', 'lib', 'tempusdominus', 'js', 'tempusdominus-bootstrap-4.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:52 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('FCPATH\\public', 'assets', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 02:14:52 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 31.
+ 1 APPPATH\Views\student\editRecord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(151): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'user.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-30 03:18:50 --> mysqli_sql_exception: Duplicate entry '1221212' for key 'PRIMARY' in C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\app\Models\Student_model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\app\Controllers\Student.php(71): App\Models\Student_model->insertStudentRecord(Array)
+#6 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+#7 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ITEC_222_2A_Miguel_CI4\index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-30 03:18:50 --> Duplicate entry '1221212' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`StudentNo`, `FirstName`, `MiddleName`, `LastName`, `isMale`, `DateOfBirth`) VALUES (:StudentNo:, :FirstName:, :MiddleName:, :LastName:, :isMale:, :DateOfBirth:)', [...], false)
+ 2 APPPATH\Models\Student_model.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Student.php(71): App\Models\Student_model->insertStudentRecord([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->addRecord()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:28:58 --> Undefined variable $message_type
+in APPPATH\Views\student\index.php on line 14.
+ 1 APPPATH\Views\student\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message_type', 'APPPATH\\Views\\student\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(20): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:29:53 --> Undefined variable $message_type
+in APPPATH\Views\student\index.php on line 14.
+ 1 APPPATH\Views\student\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message_type', 'APPPATH\\Views\\student\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/index', [], true)
+ 5 APPPATH\Controllers\Student.php(20): view('student/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:39:21 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 43.
+ 1 APPPATH\Views\student\editRecord.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:40:38 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:40:43 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:40:50 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:41:42 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:41:51 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:42:01 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:42:34 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 03:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 03:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 03:58:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:59:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:59:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 03:59:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:00:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:00:31 --> Class "App\Models\User_model" not found
+in APPPATH\Controllers\User.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:00:35 --> Class "App\Models\User_model" not found
+in APPPATH\Controllers\User.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:00:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:01:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Student.php(14): CodeIgniter\Model->__call('getUserInfo', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 04:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-30 04:12:05 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:12:13 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-30 04:12:42 --> Attempt to read property "StudentNo" on null
+in APPPATH\Views\student\editRecord.php on line 40.
+ 1 APPPATH\Views\student\editRecord.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "StudentNo" on null', 'APPPATH\\Views\\student\\editRecord.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\editRecord.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('student/editRecord', [], true)
+ 5 APPPATH\Controllers\Student.php(155): view('student/editRecord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student->editRecord('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-30 04:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 04:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 12:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-30 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
