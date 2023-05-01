@@ -51,11 +51,11 @@
                                         echo "<td>".$student->DateOfBirth."</td>";
                                         echo "
                                             <td>
-                                                <a class='btn btn-outline-primary btn-sm' href='".base_url()."/student/editRecord/".$student->StudentNo."'>
+                                                <a class='btn btn-outline-primary btn-sm' href='".base_url()."/Student/editRecord/".$student->StudentNo."'>
                                                     <i class='fas fa-pen'></i> Edit
                                                 </a>
 
-                                                <a class='btn btn-outline-primary btn-sm' href='".base_url()."/student/deleteRecord/".$student->StudentNo."'>
+                                                <a class='btn btn-outline-primary btn-sm' href='".base_url()."/Student/deleteRecord/".$student->StudentNo."'>
                                                     <i class='fas fa-trash'></i> Delete
                                                 </a>
                                             </td>";

@@ -37,7 +37,7 @@
                     </a>
                 </div>
                 
-                <?= form_open('student/addRecord'); ?>
+                <?= form_open('Student/addRecord'); ?>
 
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="txtSN" name="txtSN"

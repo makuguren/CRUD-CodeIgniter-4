@@ -6,41 +6,41 @@ use CodeIgniter\Database\ConnectionInterface;
 
 class Product_model extends Model {
 
-    function getProductsInfo() {
+    function getProductInfo() {
         $builder = $this->db->table('products');
 
         $res = $builder->get()->getResult();
         return $res;
     }
 
-    // function getProductsInfoByID($PRID) {
-    //     $builder = $this->db->table('products');
-    //     $builder->where('product_id', $PRID);
-    //     $res = $builder->get()->getRow();
-    //     return $res;
-    // }
+    function getProductInfoByID($productID) {
+        $builder = $this->db->table('products');
+        $builder->where('product_id', $productID);
+        $res = $builder->get()->getRow();
+        return $res;
+    }
 
-    function insertProducts($data) {
+    function insertProduct($data) {
         $builder = $this->db->table('products');
 
         $res = $builder->insert($data);
         return $res;
     }
 
-    // function updateStudentRecord($data, $SN) {
-    //     $builder = $this->db->table('student');
-    //     $builder->set($data);
-    //     $builder->where('StudentNo', $SN);
-    //     $res = $builder->update();
+    function updateProduct($data, $productID) {
+        $builder = $this->db->table('products');
+        $builder->set($data);
+        $builder->where('product_id', $productID);
+        $res = $builder->update();
         
-    //     return $res;
-    // }
+        return $res;
+    }
 
-    // function deleteStudentRecord($SN) {
-    //     $builder = $this->db->table('student');
-    //     $builder->where('StudentNo', $SN);
-    //     $res = $builder->delete();
+    function deleteProduct($productID) {
+        $builder = $this->db->table('products');
+        $builder->where('product_id', $productID);
+        $res = $builder->delete();
 
-    //     return $res;
-    // }
+        return $res;
+    }
 }
