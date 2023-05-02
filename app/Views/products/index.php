@@ -33,6 +33,7 @@
                                 <th>Product No.</th>
                                 <th>Category</th>
                                 <th>Product Name</th>
+                                <th>Product Description</th>
                                 <th>Price</th>
                                 <th>Quantity</th>
                                 <th>Action</th>
@@ -45,6 +46,7 @@
                                     echo "<td>".$products->product_id."</td>";
                                     echo "<td>".$products->product_category."</td>";
                                     echo "<td>".$products->product_name."</td>";
+                                    echo "<td>".$products->product_description."</td>";
                                     echo "<td>".$products->product_price."</td>";
                                     echo "<td>".$products->product_quantity."</td>";
                                     // echo "<td>".$products->product_status."</td>";

@@ -51,7 +51,13 @@
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="product_name" name="product_name"
                             placeholder="Product Name">
-                        <label for="studentnumber">Product Name</label>
+                        <label for="productname">Product Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="product_description" name="product_description"
+                            placeholder="Product Description">
+                        <label for="productdescription">Product Description</label>
                     </div>
 
                     <div class="form-floating mb-3">

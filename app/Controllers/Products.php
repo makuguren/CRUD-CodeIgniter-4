@@ -39,6 +39,11 @@ class Products extends BaseController
                     "rules" => "required|min_length[3]|max_length[20]"
                 ],
 
+                "product_description" => [
+                    "label" => "Product Description",
+                    "rules" => "required|min_length[10]|max_length[255]"
+                ],
+
                 "product_price" => [
                     "label" => "Product Price",
                     "rules" => "required"
@@ -59,6 +64,7 @@ class Products extends BaseController
                 $postdata = array(
                     "product_category" => $this->request->getVar("product_category"),
                     "product_name" => $this->request->getVar("product_name"),
+                    "product_description" => $this->request->getVar("product_description"),
                     "product_price" => $this->request->getVar("product_price"),
                     "product_quantity" => $this->request->getVar("product_quantity"),
                     "product_slug" => $this->request->getVar("product_slug")
@@ -100,6 +106,11 @@ class Products extends BaseController
                 "product_name" => [
                     "label" => "Product Name",
                     "rules" => "required|min_length[3]|max_length[20]"
+                ],
+
+                "product_description" => [
+                    "label" => "Product Description",
+                    "rules" => "required|min_length[10]|max_length[255]"
                 ],
 
                 "product_price" => [
