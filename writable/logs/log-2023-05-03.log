@@ -360,3 +360,65 @@ INFO - 2023-05-03 00:40:31 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-05-03 00:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-05-03 00:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-05-03 00:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 00:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-03 01:12:00 --> Undefined property: App\Controllers\Api::$ProductModel
+in APPPATH\Controllers\Api.php on line 304.
+ 1 APPPATH\Controllers\Api.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Api::$ProductModel', 'APPPATH\\Controllers\\Api.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api->products()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 01:12:18 --> Undefined property: App\Controllers\Api::$ProductModel
+in APPPATH\Controllers\Api.php on line 304.
+ 1 APPPATH\Controllers\Api.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Api::$ProductModel', 'APPPATH\\Controllers\\Api.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api->products()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 01:12:56 --> Undefined property: App\Controllers\Api::$ProductModel
+in APPPATH\Controllers\Api.php on line 304.
+ 1 APPPATH\Controllers\Api.php(304): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Api::$ProductModel', 'APPPATH\\Controllers\\Api.php', 304)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api->products()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 01:14:46 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Api.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Api->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 01:15:17 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Api.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Api->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 01:15:26 --> Class "App\Controllers\Product_model" not found
+in APPPATH\Controllers\Api.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Api->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-03 01:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-03 01:18:52 --> Attempt to read property "product_id" on null
+in APPPATH\Views\products\editProduct.php on line 40.
+ 1 APPPATH\Views\products\editProduct.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on null', 'APPPATH\\Views\\products\\editProduct.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\products\\editProduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('products/editProduct', [], true)
+ 5 APPPATH\Controllers\Products.php(157): view('products/editProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->editProduct('img', 'favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-03 01:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-03 01:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
