@@ -4,12 +4,14 @@ namespace App\Controllers;
 
 use App\Models\Student_model;
 use App\Models\Product_model;
+use App\Models\Category_model;
 
 class Api extends BaseController
 {
     public function __construct() {
         $this->StudentModel = new Student_model();
         $this->ProductModel = new Product_model();
+        $this->CategoryModel = new Category_model();
     }
 
     public function student(){
@@ -588,6 +590,194 @@ class Api extends BaseController
                     $respData = [
                         'meta' => array('code' => 301,
                                         'message' => 'Bad request. Student No, First Name, Middle Name, Last Name, Sex, and Date of Birth is Required.',),
+                    ];
+                }
+            } else {
+                $respData = [
+                    'meta' => array('code' => 301,
+                                    'message' => 'Bad request. DATA is Required',),
+                ];
+            }
+        }
+
+        return $this->response->setJSON($respData);
+    }
+
+    public function categories(){
+        $method =  $this->request->getMethod();
+        
+        if ($method === 'get'){
+            $category_info = $this->CategoryModel->getCategoryInfo();
+
+            $respData = [
+                'meta' => array('code' => 200,
+                                'message' => 'Get Category Record',),
+                'data' => array('category_info' => $category_info,),
+            ];
+        } else if ($method == 'post'){
+            $postData = $this->request->getPost();
+
+            if($postData){
+                if(
+                    isset($postData['category_name'])
+                ){
+                    try{
+                        $category_name = $postData['category_name'];
+
+                        if (!$category_name){
+                            $respData = [
+                                'meta' => array('code' => 412,
+                                                'message' => 'Category Name is required!',),
+                                'data' => '',
+                            ];
+                            return $this->response->setJSON($respData);
+                        }
+
+                        $postdata = array(
+                            "category_name" => $category_name,
+                        );
+
+                        $result = $this->CategoryModel->insertCategory($postdata);
+
+                        if($result == 1){
+                            $respData = [
+                                'meta' => array('code' => 200,
+                                                'message' => 'Category Record Inserted Successfully!',),
+                                'data' => '',
+                            ];
+                        } else {
+                            $respData = [
+                                'meta' => array('code' => 500,
+                                                'message' => $result,),
+                                'data' => '',
+                            ];
+                        }
+
+                    }catch(\Exception $e){
+                        die($e->getMessage());
+                    }
+                } else {
+                    $respData = [
+                        'meta' => array('code' => 301,
+                                        'message' => 'Bad request. Category Name is Required.',),
+                    ];
+                }
+            } else {
+                $respData = [
+                    'meta' => array('code' => 301,
+                                    'message' => 'Bad request. DATA is Required',),
+                ];
+            }
+
+        } else if ($method == 'put'){
+            $postData = $this->request->getRawInput();
+
+                if($postData){
+                    if(
+                        isset($postData['category_id']) &&
+                        isset($postData['category_name'])
+                    ){
+                        try{
+                            $category_id = $postData['category_id'];
+                            $category_name = $postData['category_name'];
+
+                            if (!$category_id){
+                                $respData = [
+                                    'meta' => array('code' => 412,
+                                                    'message' => 'Category ID is required!',),
+                                    'data' => '',
+                                ];
+                                return $this->response->setJSON($respData);
+                            }
+
+                            if (!$category_name){
+                                $respData = [
+                                    'meta' => array('code' => 412,
+                                                    'message' => 'Category Name is required!',),
+                                    'data' => '',
+                                ];
+                                return $this->response->setJSON($respData);
+                            }
+
+                            $postdata = array(
+                                "category_id" => $category_id,
+                                "category_name" => $category_name,
+                            );
+
+                            $result = $this->CategoryModel->updateCategory($postdata, $category_id);
+
+                            if($result == 1){
+                                $respData = [
+                                    'meta' => array('code' => 200,
+                                                    'message' => 'Category Record Updated Successfully!',),
+                                    'data' => '',
+                                ];
+                            } else {
+                                $respData = [
+                                    'meta' => array('code' => 500,
+                                                    'message' => $result,),
+                                    'data' => '',
+                                ];
+                            }
+
+                        }catch(\Exception $e){
+                            die($e->getMessage());
+                        }
+                    } else {
+                        $respData = [
+                            'meta' => array('code' => 301,
+                                            'message' => 'Bad request. Category Name is Required.',),
+                        ];
+                    }
+                } else {
+                    $respData = [
+                        'meta' => array('code' => 301,
+                                        'message' => 'Bad request. DATA is Required',),
+                    ];
+                }
+
+        } else if ($method == 'delete'){
+            $postData = $this->request->getRawInput();
+
+            if($postData){
+                if(
+                    isset($postData['category_id'])
+                ){
+                    try{
+                        $category_id = $postData['category_id'];
+
+                        if (!$category_id){
+                            $respData = [
+                                'meta' => array('code' => 412,
+                                                'message' => 'Category ID is required!',),
+                                'data' => '',
+                            ];
+                            return $this->response->setJSON($respData);
+                        }
+
+                        $result = $this->CategoryModel->deleteCategory($category_id);
+                        
+                        if($result == 1){
+                            $respData = [
+                                'meta' => array('code' => 200,
+                                                'message' => 'Category Record Deleted Successfully!',),
+                                'data' => '',
+                            ];
+                        } else {
+                            $respData = [
+                                'meta' => array('code' => 500,
+                                                'message' => $result,),
+                                'data' => '',
+                            ];
+                        }
+
+                    } catch(\Exception $e){
+                        die($e->getMessage());
+                    }
+                } else {
+                    $respData = [
+                        'meta' => array('code' => 301,
+                                        'message' => 'Bad request. Category Name is Required.',),
                     ];
                 }
             } else {
